@@ -1,0 +1,7 @@
+Configuration,Tasks_Evaluated,Hallucinated_Package_Rate_Pct,Invalid_API_Call_Rate_Pct,Invalid_Argument_Rate_Pct,Task_Success_Rate_Pct,False_Positive_Rate_Pct,Average_Latency_Ms,Abstentions,Corrections_Attempted,Correction_Success_Rate_Pct,Retrieval_Latency_Ms,Generation_Latency_Ms,Verification_Latency_Ms,Correction_Latency_Ms
+baseline_llm,260,18.51,3.65,4.96,57.69,0.0,128.6,9,0,100.0,0.0,0.0,128.59,0.0
+prompt_engineering,260,18.15,3.45,3.52,60.77,0.0,8.99,15,0,100.0,0.0,0.0,8.98,0.0
+rag_only,260,18.3,3.54,2.84,59.23,0.0,11.0,11,0,100.0,0.69,0.0,10.3,0.0
+fine_tuned_model,260,14.06,0.0,2.96,81.15,0.0,4.12,68,0,100.0,0.0,0.0,4.11,0.0
+guardrails_only,260,18.51,3.65,4.96,57.69,6.79,7.81,9,0,100.0,0.0,0.0,7.81,0.0
+full_softmaxshield,260,11.9,0.0,0.0,78.08,6.79,46.25,60,74,100.0,0.61,30.46,5.08,10.1
